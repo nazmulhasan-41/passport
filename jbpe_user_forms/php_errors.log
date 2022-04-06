@@ -2031,3 +2031,141 @@ Stack trace:
 [03-Apr-2022 14:01:18 Asia/Dhaka] PHP Notice:  Undefined variable: mydata in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 1087
 [03-Apr-2022 14:03:31 Asia/Dhaka] PHP Notice:  Undefined variable: mydata in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 1087
 [03-Apr-2022 14:11:54 Asia/Dhaka] PHP Notice:  Use of undefined constant value - assumed 'value' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 1101
+[06-Apr-2022 10:05:11 Asia/Dhaka] PHP Notice:  Undefined variable: passportNumber in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 477
+[06-Apr-2022 10:05:11 Asia/Dhaka] PHP Notice:  Undefined variable: applicantName in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 482
+[06-Apr-2022 10:05:11 Asia/Dhaka] PHP Notice:  Undefined variable: address in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 487
+[06-Apr-2022 10:05:11 Asia/Dhaka] PHP Notice:  Undefined variable: passportDate in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 498
+[06-Apr-2022 10:05:11 Asia/Dhaka] PHP Notice:  Undefined variable: passportIssuePlace in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 503
+[06-Apr-2022 10:05:11 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 530
+[06-Apr-2022 10:05:11 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 536
+[06-Apr-2022 10:05:11 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 541
+[06-Apr-2022 10:05:11 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 547
+[06-Apr-2022 10:07:15 Asia/Dhaka] PHP Notice:  Undefined variable: passportNumber in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 477
+[06-Apr-2022 10:07:15 Asia/Dhaka] PHP Notice:  Undefined variable: applicantName in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 482
+[06-Apr-2022 10:07:15 Asia/Dhaka] PHP Notice:  Undefined variable: address in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 487
+[06-Apr-2022 10:07:15 Asia/Dhaka] PHP Notice:  Undefined variable: passportDate in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 498
+[06-Apr-2022 10:07:15 Asia/Dhaka] PHP Notice:  Undefined variable: passportIssuePlace in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 503
+[06-Apr-2022 10:07:15 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 530
+[06-Apr-2022 10:07:15 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 536
+[06-Apr-2022 10:07:15 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 541
+[06-Apr-2022 10:07:15 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 547
+[06-Apr-2022 10:08:39 Asia/Dhaka] PHP Notice:  Undefined variable: passportNumber in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 477
+[06-Apr-2022 10:08:39 Asia/Dhaka] PHP Notice:  Undefined variable: applicantName in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 482
+[06-Apr-2022 10:08:39 Asia/Dhaka] PHP Notice:  Undefined variable: address in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 487
+[06-Apr-2022 10:08:39 Asia/Dhaka] PHP Notice:  Undefined variable: passportDate in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 498
+[06-Apr-2022 10:08:39 Asia/Dhaka] PHP Notice:  Undefined variable: passportIssuePlace in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 503
+[06-Apr-2022 10:08:39 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 530
+[06-Apr-2022 10:08:39 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 536
+[06-Apr-2022 10:08:39 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 541
+[06-Apr-2022 10:08:39 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 547
+[06-Apr-2022 10:22:48 Asia/Dhaka] PHP Notice:  Undefined variable: passportNumber in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 468
+[06-Apr-2022 10:22:48 Asia/Dhaka] PHP Notice:  Undefined variable: applicantName in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 473
+[06-Apr-2022 10:22:48 Asia/Dhaka] PHP Notice:  Undefined variable: address in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 478
+[06-Apr-2022 10:22:48 Asia/Dhaka] PHP Notice:  Undefined variable: passportDate in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 489
+[06-Apr-2022 10:22:48 Asia/Dhaka] PHP Notice:  Undefined variable: passportIssuePlace in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 494
+[06-Apr-2022 11:08:06 Asia/Dhaka] PHP Notice:  Undefined variable: passportNumber in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 468
+[06-Apr-2022 11:08:06 Asia/Dhaka] PHP Notice:  Undefined variable: applicantName in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 473
+[06-Apr-2022 11:08:06 Asia/Dhaka] PHP Notice:  Undefined variable: address in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 478
+[06-Apr-2022 11:08:06 Asia/Dhaka] PHP Notice:  Undefined variable: passportDate in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 489
+[06-Apr-2022 11:08:06 Asia/Dhaka] PHP Notice:  Undefined variable: passportIssuePlace in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 494
+[06-Apr-2022 12:23:46 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:23:46 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:23:46 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:23:46 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 543
+[06-Apr-2022 12:23:55 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:23:55 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:23:55 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:23:55 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 543
+[06-Apr-2022 12:23:57 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:23:57 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:23:57 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:23:57 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 543
+[06-Apr-2022 12:24:29 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:24:29 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:24:29 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:24:29 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 543
+[06-Apr-2022 12:25:47 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:25:47 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:25:47 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:25:47 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 543
+[06-Apr-2022 12:27:48 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:27:48 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:27:48 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:27:48 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 571
+[06-Apr-2022 12:28:06 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:28:06 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:28:06 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:28:06 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 571
+[06-Apr-2022 12:28:24 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:28:24 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:28:24 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:28:24 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 571
+[06-Apr-2022 12:28:40 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:28:40 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:28:40 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:28:40 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 571
+[06-Apr-2022 12:39:42 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:39:42 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:39:42 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:39:42 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 555
+[06-Apr-2022 12:40:07 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:40:07 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:40:07 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:40:07 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 555
+[06-Apr-2022 12:50:07 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:50:07 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:50:07 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:50:07 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 551
+[06-Apr-2022 12:51:03 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:51:03 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:51:03 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:51:03 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 551
+[06-Apr-2022 12:51:26 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:51:26 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:51:26 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:51:26 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 551
+[06-Apr-2022 12:53:47 Asia/Dhaka] PHP Notice:  Undefined variable: totlaFcAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 526
+[06-Apr-2022 12:53:47 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 532
+[06-Apr-2022 12:53:47 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 12:53:47 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 543
+[06-Apr-2022 13:11:39 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 13:11:39 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 542
+[06-Apr-2022 13:11:39 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 548
+[06-Apr-2022 13:11:39 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_fc_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 559
+[06-Apr-2022 13:12:06 Asia/Dhaka] PHP Notice:  Undefined variable: totalBdtAmount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 537
+[06-Apr-2022 13:12:06 Asia/Dhaka] PHP Notice:  Undefined variable: sfcBank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 542
+[06-Apr-2022 13:12:06 Asia/Dhaka] PHP Notice:  Undefined variable: sfcTotal in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 548
+[06-Apr-2022 13:12:06 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_fc_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 559
+[06-Apr-2022 13:18:26 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_fc_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 559
+[06-Apr-2022 13:18:26 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_bdt_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 565
+[06-Apr-2022 13:18:26 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_bank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 571
+[06-Apr-2022 13:18:26 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_total in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 578
+[06-Apr-2022 13:19:20 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_fc_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 559
+[06-Apr-2022 13:19:20 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_bdt_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 565
+[06-Apr-2022 13:19:20 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_bank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 571
+[06-Apr-2022 13:19:20 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_total in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 578
+[06-Apr-2022 13:23:32 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_fc_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 559
+[06-Apr-2022 13:23:32 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_bdt_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 565
+[06-Apr-2022 13:23:32 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_bank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 571
+[06-Apr-2022 13:23:32 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_total in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 578
+[06-Apr-2022 13:45:15 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_fc_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 559
+[06-Apr-2022 13:45:15 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_bdt_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 565
+[06-Apr-2022 13:45:15 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_bank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 571
+[06-Apr-2022 13:45:15 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_total in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 578
+[06-Apr-2022 13:47:48 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '{' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 559
+[06-Apr-2022 13:48:05 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:06 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:06 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:06 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:06 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:07 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:07 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:07 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:07 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:30 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:48:33 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 560
+[06-Apr-2022 13:51:28 Asia/Dhaka] PHP Notice:  Undefined index: txt_total_bdt_amount in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 569
+[06-Apr-2022 13:51:28 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_bank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 575
+[06-Apr-2022 13:51:28 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_total in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 582
+[06-Apr-2022 13:52:38 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_bank in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 577
+[06-Apr-2022 13:52:38 Asia/Dhaka] PHP Notice:  Undefined index: txt_sfc_total in C:\Apache24\htdocs\jbpe\jbpe_user_forms\endorsementEntry.php on line 584

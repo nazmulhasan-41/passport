@@ -40,7 +40,9 @@ function myFunction(buttonId) {
 
 	with (form)
 	  {
-	 
+
+	  	//alert ('checking');
+
 			if (validate_required(txt_passportnumber,"Enter Passport Number!")==false)
 			{txt_passportnumber.focus();return false;}
 			
@@ -85,33 +87,24 @@ function myFunction(buttonId) {
 			else if (validate_required(cmbCompanyTypeList,"Enter Company Type!")==false)
 			{cmbCompanyTypeList.focus();return false;}
 			
-		
-	  }	
-	document.getElementById("frmOthers").submit();
-	//alert ('frmIndia submitted');
-	  }
+	  	}	
 
-
-
-	  
-	// else {
-	// 	  alert ('submitting form from Other'); 
-	// 	  exit;
-
-
-	// 		document.getElementById("frmOthers").submit();
-	//   }
+				  
+					// document.getElementById("frmOthers").submit();
+					document.getElementById("frmIndia").submit();
+	
+	 }
 
 	  else if(buttonId=='btn_submitOthers')
 	  {
-	  	 alert ('submitting form from Otherssss'); 
+	  	 //alert ('submitting form from Otherssss'); 
 	  	 	form = document.getElementById("frmOthers");
 	  	 	 	var date_regex = /^(0[1-9]|1[0-9]|2[0-9]|3[01])-(0[1-9]|1[012])-[0-9]{4}$/;
 
-
  		with (form)
 	  {
-	  //alert(testtype);
+	  	alert('starts..')
+	  
 			if (validate_required(txt_passportnumber,"Enter Passport Number!")==false)
 			{txt_passportnumber.focus();return false;}
 			
@@ -144,20 +137,24 @@ function myFunction(buttonId) {
 			else if (validate_required(txt_amnt,"Please Select Amount!")==false)
 			{txt_amnt.focus();return false;}
 			
-			else if (validate_required(txt_total_bdt_amount,"BDT AMOUNT Blank!")==false)
-			{txt_total_bdt_amount.focus();return false;}
+			else if (validate_required(txt_total_bdt_amount_forAll,"BDT AMOUNT Blank!")==false)
+			{txt_total_bdt_amount_forAll.focus();return false;}
 			
-			else if (validate_required(txt_total_fc_amount,"Total FC Amount!")==false)
-			{txt_total_fc_amount.focus();return false;}
+			else if (validate_required(txt_total_fc_amount_forAll,"Total FC Amount!")==false)
+			{txt_total_fc_amount_forAll.focus();return false;}
 			
-			else if (validate_required(txt_sfc_total,"Total SFC Amount!")==false)
-			{txt_sfc_total.focus();return false;}
+			else if (validate_required(txt_sfc_total_forAll,"Total SFC Amount!")==false)
+			{txt_sfc_total_forAll.focus();return false;}
 			
 			else if (validate_required(cmbCompanyTypeList,"Enter Company Type!")==false)
 			{cmbCompanyTypeList.focus();return false;}
 			
 	  }	
-	  			exit;
+	  //alert('finish')
+
+	  document.getElementById("frmOthers").submit();
+
+	  			// exit;
 
 	  }
 	  else{
@@ -241,11 +238,11 @@ function handleClick2(value)
 		document.getElementById('txt_amnt_input_forAll').value='';
 		document.getElementById('txt_amnt_input_forAll').style.display = 'none';
 		
-		exchangeRateIndia=document.getElementById('check2').innerText;
+		exchangeRateforAny=document.getElementById('check2').innerText;
 		//alert(exchangeRateIndia);
 		
 		document.getElementById('txt_sfc_bank_forAll').value=value;
-		document.getElementById('txt_total_bdt_amount_forAll').value=(value*exchangeRateIndia).toFixed(4);
+		document.getElementById('txt_total_bdt_amount_forAll').value=(value*exchangeRateforAny).toFixed(4);
 		document.getElementById('txt_total_fc_amount_forAll').value=value;
 		document.getElementById('txt_sfc_total_forAll').value=value;
 		
@@ -270,10 +267,10 @@ function sfcAmount2(value)
 {
   document.getElementById('txt_sfc_bank_forAll').value=value;
   
-  exchangeRateIndia=document.getElementById('check2').innerText;
+  exchangeRateforAny=document.getElementById('check2').innerText;
   //alert(exchangeRateIndia);
   
-  document.getElementById('txt_total_bdt_amount_forAll').value=(value*exchangeRateIndia).toFixed(4);
+  document.getElementById('txt_total_bdt_amount_forAll').value=(value*exchangeRateforAny).toFixed(4);
   document.getElementById('txt_total_fc_amount_forAll').value=value;
   document.getElementById('txt_sfc_total_forAll').value=value;
 }
@@ -427,11 +424,6 @@ select {
 
 
 
-
-						
-
-
-
 						if (empty($exchangeRate)){
 							echo "<span style=\"color:red;font-size: 25px\">Notice: Module Not Active: Today's Exchange Rate Hasn't been Set Yet!!!!</span>";  
 							$fcRateEntry=$baseroot+"/jbpe_user_forms/fcRateIssue.php";
@@ -528,29 +520,79 @@ select {
 						$amount = $CISecurity->xss_clean($amount);
 						$InsertClass->isEmpty($amount,"Amount is Blank !!!");
 						$amount = $CISecurity->xss_clean($amount);
+
+
+
 						
 						// txt_total_fc_amount  or $totlaFcAmount should be decimal
-						if (isset($_POST["txt_total_fc_amount"])) $totlaFcAmount=(string)$_POST["txt_total_fc_amount"];
+
+
+						// if (isset($_POST["txt_total_fc_amount"])) $totlaFcAmount=(string)$_POST["txt_total_fc_amount"];
+						// $totlaFcAmount = $CISecurity->xss_clean($totlaFcAmount);
+						// $InsertClass->isEmpty($totlaFcAmount,"Total FC Amount is Blank !!!");
+						// $totlaFcAmount = $CISecurity->xss_clean($totlaFcAmount);
+						
+						// txt_total_bdt_amount  or $totalBdtAmount should be decimal 
+						// if (isset($_POST["txt_total_bdt_amount"])) $totalBdtAmount=(string)$_POST["txt_total_bdt_amount"];
+						// $totalBdtAmount = $CISecurity->xss_clean($totalBdtAmount);
+						// $InsertClass->isEmpty($totalBdtAmount,"Total BDT. Amount is Blank !!!");
+						// $totalBdtAmount = $CISecurity->xss_clean($totalBdtAmount);
+
+						// 	if (isset($_POST["txt_sfc_bank"])) $sfcBank=(string)$_POST["txt_sfc_bank"];
+						// $sfcBank = $CISecurity->xss_clean($sfcBank);
+						// $InsertClass->isEmpty($sfcBank,"SFC BANK AMOUNT is Blank !!!");
+						// $sfcBank = $CISecurity->xss_clean($sfcBank);
+
+						// //txt_sfc_total or sfcTotal should be in decimal 
+						// if (isset($_POST["txt_sfc_total"])) $sfcTotal=(string)$_POST["txt_sfc_total"];
+						// $sfcTotal = $CISecurity->xss_clean($sfcTotal);
+						// $InsertClass->isEmpty($sfcTotal,"SFC Total is Blank !!!");
+						// $sfcTotal = $CISecurity->xss_clean($sfcTotal);
+						
+						
+
+
+						/// starts testing for others
+
+
+
+						if (isset($_POST["txt_total_fc_amount"])) $totlaFcAmount=(string)$_POST["txt_total_fc_amount"] ;
+
+					  if(isset($_POST["txt_total_fc_amount_forAll"]) ) $totlaFcAmount= (string)$_POST["txt_total_fc_amount_forAll"];
+
 						$totlaFcAmount = $CISecurity->xss_clean($totlaFcAmount);
 						$InsertClass->isEmpty($totlaFcAmount,"Total FC Amount is Blank !!!");
 						$totlaFcAmount = $CISecurity->xss_clean($totlaFcAmount);
-						
-						// txt_total_bdt_amount  or $totalBdtAmount should be decimal 
+
+
 						if (isset($_POST["txt_total_bdt_amount"])) $totalBdtAmount=(string)$_POST["txt_total_bdt_amount"];
+
+						if(isset($_POST["txt_total_bdt_amount_forAll"])) $totalBdtAmount=(string)$_POST["txt_total_bdt_amount_forAll"];
+
 						$totalBdtAmount = $CISecurity->xss_clean($totalBdtAmount);
 						$InsertClass->isEmpty($totalBdtAmount,"Total BDT. Amount is Blank !!!");
 						$totalBdtAmount = $CISecurity->xss_clean($totalBdtAmount);
-						
-						if (isset($_POST["txt_sfc_bank"])) $sfcBank=(string)$_POST["txt_sfc_bank"];
+
+						if (isset($_POST["txt_sfc_bank"]))	$sfcBank=(string)$_POST["txt_sfc_bank"]; 
+						if(isset($_POST["txt_sfc_bank_forAll"])) $sfcBank=(string)$_POST["txt_sfc_bank_forAll"];
 						$sfcBank = $CISecurity->xss_clean($sfcBank);
 						$InsertClass->isEmpty($sfcBank,"SFC BANK AMOUNT is Blank !!!");
 						$sfcBank = $CISecurity->xss_clean($sfcBank);
-						
+
 						//txt_sfc_total or sfcTotal should be in decimal 
-						if (isset($_POST["txt_sfc_total"])) $sfcTotal=(string)$_POST["txt_sfc_total"];
+						if (isset($_POST["txt_sfc_total"])) $sfcTotal=(string)$_POST["txt_sfc_total"]; 
+						if(isset($_POST["txt_sfc_total_forAll"])) $sfcTotal=(string)$_POST["txt_sfc_total_forAll"];
 						$sfcTotal = $CISecurity->xss_clean($sfcTotal);
 						$InsertClass->isEmpty($sfcTotal,"SFC Total is Blank !!!");
 						$sfcTotal = $CISecurity->xss_clean($sfcTotal);
+
+						
+										
+
+
+						/// tesing finish
+						
+						
 						
 						if (isset($_POST["cmbPurposeList"])) $purposeCode=(string)$_POST["cmbPurposeList"];
 						$purposeCode = $CISecurity->xss_clean($purposeCode);
@@ -684,7 +726,8 @@ select {
 					
 							}
 							else If ((strcmp($msgToClearVariableUpdatePP,$InsertClass->querylog)==0) OR (strcmp($msgToClearVariableUpdatePPTM,$InsertClass->querylog)==0)){
-										
+
+														
 										echo "<span style=\"color:red;font-size: 20px\">".$InsertClass->querylog."</span>";
 										$branchCode=$passportNumber=$tmFor=$currencyCode=$countryCode=$purposeCode=$beneficiaryDetails='';
 										$applicantName=$address=$effectedRemittance=$fxManualPara=$bbApprovalNo=$approvalDate='';
@@ -824,12 +867,13 @@ select {
 								document.getElementById(\"txt_amnt_ck\").click();
 								document.getElementById(\"txt_amnt_input\").value = amount;
 								sfcAmount(amount);
-							}
-							
+							}							
 							document.getElementById('cmbPurposeList').value= {$purposeCode};
 							document.getElementById('cmbCompanyTypeList').value= {$companyTypeCode};
 							document.getElementById('cmbCategoryList').value= {$categoryTypeCode};
 						}
+
+						
 						</script>";						
 							 
 							// exit;
@@ -1089,7 +1133,7 @@ select {
 						</td>
 						<td>
 								<input name="txt_passportnumber" type="text" id="txt_passportnumber"  value="<?PHP echo $passportNo;?>" size="20" autocomplete="off"  placeholder="Passport Number ?"  style="text-transform: uppercase;" maxlength="10" required />
-								<input type="button" name="btn_showPassportInfo" id="btn_showPassportInfo" value="Show" onclick="showPassportInfo('showPassportInfo',txt_passportnumber.value,'<?php echo $baseroot;?>');return false;" />
+								<input type="button" name="btn_showPassportInfo2" id="btn_showPassportInfo2" value="Show" onclick="showPassportInfo('showPassportInfo2',txt_passportnumber.value,'<?php echo $baseroot;?>');return false;" />
 								<span class="error" >*</span>
 						</td>
 					</tr>
@@ -1308,7 +1352,7 @@ select {
 			
 			<td style="align:right;" width=570px>
 			
-				<SPAN id="showPassportInfo" ><?php //echo $zone;?> &nbsp</SPAN>
+				<SPAN id="showPassportInfo2" ><?php //echo $zone;?> &nbsp</SPAN>
 				<br>
 				<SPAN id="" >1**Message</SPAN>
 				<br>

@@ -1134,7 +1134,7 @@ function PassportInfo($tblcaption,$colHeader,$passportNo,$baseroot,$conn){
 			  FROM [dbjbPassportEndorse].[dbo].[tblpassport]
 			  where [PASSPORT_NO]='".$passportNo."'";
 
-			$result_list2 = sqlsrv_query($conn,$sql2);
+		$result_list2 = sqlsrv_query($conn,$sql2);
 			while ($row_list2 = sqlsrv_fetch_array($result_list2)){
 				IF ($row_list2['PASSPORT_NO'] !=NULL){
 					$slNo=$row_list2['SL_NO'];
@@ -1156,7 +1156,7 @@ function PassportInfo($tblcaption,$colHeader,$passportNo,$baseroot,$conn){
 				//$this->DataList.="<th height=30px class=tbg><td colspan=2><strong>$tblcaption</strong></td></th>";
 				
 				$this->DataList.="<tr class=\"data_bg\">";    
-				$this->DataList.="<td class=\"row_data\"><strong>Passport Number</strong></td>";
+				$this->DataList.="<td class=\"row_data\"><strong>Passport Numbers</strong></td>";
 				$this->DataList.="<td class=\"row_data\" ><input type=\"text\" id=\"passportNo\" name=\"passportNo\" value=\"$passportNo\" readonly></td>";
 				$this->DataList.="</tr>";
 				
@@ -1377,7 +1377,6 @@ function PassportInfo($tblcaption,$colHeader,$passportNo,$baseroot,$conn){
 				$this->DataList.="</tr>";
 				 */
 				
-				
 				$this->DataList.="<tr class=data_bg_alt hidden>";    
 				$this->DataList.="<td class=row_data><strong>Passport Renewal Date</strong></td>";
 				$this->DataList.="<td class=row_data  ><strong>".$passportRenewalDate."</strong></td>";
@@ -1405,8 +1404,7 @@ function PassportInfo($tblcaption,$colHeader,$passportNo,$baseroot,$conn){
 			}		
 		sqlsrv_free_stmt($result_list1);
 	//}
-
-						
+			
 }
 /////////////////////////////////////////
 /*Passport Endorse AUTHORIZE*////
