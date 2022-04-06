@@ -1,0 +1,17 @@
+[20-Sep-2020 16:48:19 Asia/Dhaka] PHP Warning:  include(../jr_settings/domainsettings.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\jbneps\jr_help\usermanual.php on line 2
+[20-Sep-2020 16:48:19 Asia/Dhaka] PHP Warning:  include(): Failed opening '../jr_settings/domainsettings.php' for inclusion (include_path='.;C:\php\pear') in C:\Apache24\htdocs\jbneps\jr_help\usermanual.php on line 2
+[20-Sep-2020 16:48:19 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jr_help\usermanual.php on line 9
+[20-Sep-2020 16:48:19 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jr_help\usermanual.php on line 20
+[20-Sep-2020 16:48:19 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jr_help\usermanual.php on line 23
+[20-Sep-2020 16:48:19 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jr_help\usermanual.php on line 26
+[20-Sep-2020 16:48:19 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jr_help\usermanual.php on line 29
+[20-Sep-2020 16:48:19 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jr_help\usermanual.php on line 32
+[21-Sep-2020 10:46:43 Asia/Dhaka] PHP Warning:  include(../jr_settings/domainsettings.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\jbneps\jbneps_help\support.php on line 2
+[21-Sep-2020 10:46:43 Asia/Dhaka] PHP Warning:  include(): Failed opening '../jr_settings/domainsettings.php' for inclusion (include_path='.;C:\php\pear') in C:\Apache24\htdocs\jbneps\jbneps_help\support.php on line 2
+[21-Sep-2020 10:46:43 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jbneps_help\support.php on line 9
+[21-Sep-2020 10:46:43 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jbneps_help\support.php on line 18
+[21-Sep-2020 10:46:43 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jbneps_help\support.php on line 19
+[21-Sep-2020 10:46:43 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jbneps_help\support.php on line 32
+[21-Sep-2020 10:46:43 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jbneps_help\support.php on line 33
+[21-Sep-2020 10:46:43 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jbneps_help\support.php on line 48
+[21-Sep-2020 10:46:43 Asia/Dhaka] PHP Notice:  Undefined variable: baseroot in C:\Apache24\htdocs\jbneps\jbneps_help\support.php on line 49

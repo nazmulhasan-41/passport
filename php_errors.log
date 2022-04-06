@@ -1,0 +1,295 @@
+[20-Jul-2017 11:15:19 Asia/Dhaka] PHP Notice:  Undefined variable: session_remain_time in D:\website\jbutility\loginfail.php on line 116
+[20-Jul-2017 11:15:19 Asia/Dhaka] PHP Notice:  Undefined variable: session_expire_seconds in D:\website\jbutility\loginfail.php on line 116
+[20-Jul-2017 11:15:19 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in D:\website\jbutility\loginfail.php on line 117
+[25-Jul-2017 07:50:54 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbutility\jbbill_dbconn\dbmycon.php on line 47
+[21-Sep-2017 06:53:59 UTC] PHP Parse error:  syntax error, unexpected 'Consumer' (T_STRING) in C:\Apache24\htdocs\jbutility\jbbill_classes\clsdataview.php on line 1204
+[27-Sep-2017 08:11:12 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in C:\Apache24\htdocs\jbutility\jbbill_classes\clsdataview.php on line 1226
+[15-Oct-2017 08:58:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:03:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:12:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:12:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:12:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:12:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:12:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:12:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:12:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:12:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:16:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Oct-2017 09:17:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[15-Jan-2018 06:11:29 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\jbutility\loginfail.php on line 62
+[15-Jan-2018 06:11:34 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\jbutility\loginfail.php on line 62
+[15-Jan-2018 06:12:02 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\jbutility\loginfail.php on line 62
+[15-Jan-2018 06:19:32 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\jbutility\loginfail.php on line 62
+[22-Jan-2018 05:25:13 UTC] PHP Parse error:  syntax error, unexpected '.=' (T_CONCAT_EQUAL) in C:\Apache24\htdocs\jbutility\jbbill_classes\clscodeview.php on line 197
+[23-Jan-2018 07:12:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[23-Jan-2018 07:12:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbutility\jbbillhome.php on line 5
+[29-Jan-2018 05:48:11 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in C:\Apache24\htdocs\jbutility\jbbill_classes\clsdataview.php on line 379
+[29-Jan-2018 05:48:30 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in C:\Apache24\htdocs\jbutility\jbbill_classes\clsdataview.php on line 379
+[29-Jan-2018 05:48:31 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in C:\Apache24\htdocs\jbutility\jbbill_classes\clsdataview.php on line 379
+[29-Jan-2018 05:48:39 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in C:\Apache24\htdocs\jbutility\jbbill_classes\clsdataview.php on line 379
+[29-Jan-2018 05:48:39 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in C:\Apache24\htdocs\jbutility\jbbill_classes\clsdataview.php on line 379
+[29-Jan-2018 05:48:57 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in C:\Apache24\htdocs\jbutility\jbbill_classes\clsdataview.php on line 379
+[16-Jan-2019 09:38:08 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbutility\jbbill_classes\clsdataview.php on line 1875
+[05-Feb-2019 08:18:10 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbutility\jbbill_dbconn\dbmycon.php on line 37
+[21-May-2019 06:19:48 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\jbutility\loginfail.php on line 63
+[21-May-2019 08:47:49 UTC] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbutility\loginfail.php on line 108
+[22-May-2019 06:11:22 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbutility\jbbill_classes\clsmenu.php on line 17
+[22-May-2019 07:46:00 UTC] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbutility\loginfail.php on line 108
+[23-May-2019 05:02:16 UTC] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbutility\loginfail.php on line 108
+[23-May-2019 05:27:49 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbutility\jbbill_dbconn\dbmycon.php on line 37
+[23-May-2019 06:26:19 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbutility\jbbill_dbconn\dbmycon.php on line 40
+[23-May-2019 09:01:27 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbutility\jbbill_dbconn\dbmycon.php on line 40
+[23-May-2019 09:02:33 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbutility\jbbill_classes\clsmenu.php on line 17
+[23-May-2019 09:02:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbutility\jbbill_classes\clsmenu.php on line 17
+[23-May-2019 09:05:06 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbutility\jbbill_classes\clsmenu.php on line 17
+[23-May-2019 09:05:52 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbutility\jbbill_classes\clsmenu.php on line 17
+[23-May-2019 09:10:38 UTC] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbutility\jbbill_dbconn\dbmycon.php on line 41
+[23-May-2019 09:10:53 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbutility\jbbill_classes\clsmenu.php on line 17
+[30-May-2019 07:31:24 UTC] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbutility\loginfail.php on line 108
+[12-Dec-2019 04:47:46 UTC] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[15-Dec-2019 05:46:29 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 17
+[15-Dec-2019 05:47:24 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 17
+[15-Dec-2019 05:49:14 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 17
+[15-Dec-2019 05:52:30 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:52:56 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:55:20 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:55:21 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:55:21 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:55:22 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:55:22 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:44 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:44 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:45 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:45 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:45 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:45 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:46 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:47 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:47 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:58:47 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 05:59:07 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 18
+[15-Dec-2019 06:01:36 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:39 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:39 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:39 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:41 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:41 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:42 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:42 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:42 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:46 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:01:46 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:05:01 UTC] PHP Parse error:  syntax error, unexpected 'ECHO' (T_ECHO), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 4
+[15-Dec-2019 06:05:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 4
+[15-Dec-2019 06:05:22 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 4
+[15-Dec-2019 06:05:55 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:00 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:01 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:01 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:02 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:02 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:02 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:02 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:02 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:02 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:02 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:03 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:11:03 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:15:07 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:15:08 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:15:08 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:15:09 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:15:09 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:15:09 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:18:41 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:36 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:37 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:37 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:38 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:38 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:38 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:38 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:38 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:38 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:39 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:39 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:39 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:39 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:39 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:40 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:41 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:41 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:41 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:41 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:19:41 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:23:33 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:23:57 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:27:10 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:27:52 UTC] PHP Notice:  Array to string conversion in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 11
+[15-Dec-2019 06:27:52 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:33:15 UTC] PHP Notice:  Array to string conversion in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 11
+[15-Dec-2019 06:33:15 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:33:16 UTC] PHP Notice:  Array to string conversion in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 11
+[15-Dec-2019 06:33:16 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:33:16 UTC] PHP Notice:  Array to string conversion in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 11
+[15-Dec-2019 06:33:16 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:33:16 UTC] PHP Notice:  Array to string conversion in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 11
+[15-Dec-2019 06:33:16 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:33:17 UTC] PHP Notice:  Array to string conversion in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 11
+[15-Dec-2019 06:33:17 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:33:17 UTC] PHP Notice:  Array to string conversion in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 11
+[15-Dec-2019 06:33:17 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[15-Dec-2019 06:33:17 UTC] PHP Notice:  Array to string conversion in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 11
+[15-Dec-2019 06:33:17 UTC] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\jbneps\jbneps_classes\clsmenu.php on line 20
+[18-Dec-2019 03:39:07 UTC] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[18-Dec-2019 06:30:51 UTC] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[18-Dec-2019 09:14:32 UTC] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[18-Dec-2019 10:28:07 UTC] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[28-Jan-2020 11:11:55 Asia/Dhaka] PHP Notice:  Undefined index: session_expire_seconds in C:\Apache24\htdocs\jbneps\loginfail.php on line 17
+[28-Jan-2020 11:11:55 Asia/Dhaka] PHP Notice:  Undefined index: jb_solution_root in C:\Apache24\htdocs\jbneps\loginfail.php on line 44
+[28-Jan-2020 11:11:56 Asia/Dhaka] PHP Notice:  Undefined index: session_last_time in C:\Apache24\htdocs\jbneps\loginfail.php on line 105
+[28-Jan-2020 11:11:56 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[28-Jan-2020 16:21:45 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[28-Jan-2020 16:55:39 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[29-Jan-2020 15:58:11 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[29-Jan-2020 16:25:27 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[30-Jan-2020 17:27:59 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[30-Jan-2020 17:27:59 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[02-Feb-2020 16:20:05 Asia/Dhaka] PHP Parse error:  syntax error, unexpected ',' in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 33
+[02-Feb-2020 16:20:27 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 69
+[02-Feb-2020 16:20:54 Asia/Dhaka] PHP Warning:  sqlsrv_query() expects parameter 3 to be array, string given in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 56
+[02-Feb-2020 16:25:45 Asia/Dhaka] PHP Warning:  sqlsrv_query() expects parameter 3 to be array, string given in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 56
+[02-Feb-2020 16:25:46 Asia/Dhaka] PHP Warning:  sqlsrv_query() expects parameter 3 to be array, string given in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 56
+[02-Feb-2020 16:25:47 Asia/Dhaka] PHP Warning:  sqlsrv_query() expects parameter 3 to be array, string given in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 56
+[02-Feb-2020 16:25:49 Asia/Dhaka] PHP Warning:  sqlsrv_query() expects parameter 3 to be array, string given in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 56
+[02-Feb-2020 16:25:49 Asia/Dhaka] PHP Warning:  sqlsrv_query() expects parameter 3 to be array, string given in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 56
+[02-Feb-2020 16:29:17 Asia/Dhaka] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 64
+[02-Feb-2020 16:38:29 Asia/Dhaka] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 64
+[02-Feb-2020 16:45:11 Asia/Dhaka] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 62
+[02-Feb-2020 16:45:12 Asia/Dhaka] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 62
+[02-Feb-2020 16:45:13 Asia/Dhaka] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 62
+[02-Feb-2020 16:45:13 Asia/Dhaka] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 62
+[02-Feb-2020 16:45:13 Asia/Dhaka] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 62
+[02-Feb-2020 16:45:13 Asia/Dhaka] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 62
+[02-Feb-2020 16:56:20 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Apache24\htdocs\jbneps\unauthorizedCustomerList.php on line 73
+[05-Feb-2020 14:34:01 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 303
+[05-Feb-2020 14:34:11 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 303
+[05-Feb-2020 14:34:47 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 303
+[05-Feb-2020 14:37:15 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '";?>"' (T_CONSTANT_ENCAPSED_STRING) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 303
+[05-Feb-2020 14:37:24 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '";?>"' (T_CONSTANT_ENCAPSED_STRING) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 303
+[05-Feb-2020 14:37:46 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '<' in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 303
+[05-Feb-2020 16:56:27 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[06-Feb-2020 11:49:38 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[10-Feb-2020 14:22:00 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[10-Feb-2020 17:03:55 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[12-Feb-2020 09:43:12 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbneps\jbneps_dbconn\dbmycon.php on line 22
+[12-Feb-2020 12:17:24 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 2249
+[17-Feb-2020 12:12:56 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[18-Feb-2020 11:34:20 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[20-Feb-2020 13:58:54 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[20-Feb-2020 15:12:51 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:28 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:30 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:31 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:32 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:32 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:33 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:34 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:34 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:34 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:35 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[20-Feb-2020 15:13:35 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'sqlsrv_close' (T_STRING), expecting function (T_FUNCTION) in C:\Apache24\htdocs\jbneps\jbneps_classes\clsdataview.php on line 1755
+[02-Mar-2020 11:01:33 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[04-Mar-2020 12:56:29 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[04-Mar-2020 13:09:17 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[18-Mar-2020 13:50:43 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[12-Aug-2020 12:19:40 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[12-Aug-2020 12:32:50 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[13-Aug-2020 11:48:25 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[16-Aug-2020 12:36:22 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[17-Aug-2020 12:45:06 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[02-Sep-2020 16:04:53 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[02-Sep-2020 16:54:40 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[03-Sep-2020 12:27:25 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[08-Sep-2020 11:20:34 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[13-Sep-2020 12:56:10 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[13-Sep-2020 12:57:35 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[13-Sep-2020 14:09:13 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[13-Sep-2020 16:31:04 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[14-Sep-2020 09:53:58 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbneps\jbneps_dbconn\dbmycon.php on line 22
+[14-Sep-2020 09:53:58 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbneps\jbneps_dbconn\dbmycon.php on line 22
+[14-Sep-2020 10:54:24 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbneps\jbneps_dbconn\dbmycon.php on line 22
+[14-Sep-2020 10:54:24 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbneps\jbneps_dbconn\dbmycon.php on line 22
+[15-Sep-2020 10:00:53 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbneps\jbneps_dbconn\dbmycon.php on line 22
+[15-Sep-2020 15:34:59 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbneps\jbneps_dbconn\dbmycon.php on line 22
+[16-Sep-2020 11:26:46 Asia/Dhaka] PHP Notice:  Undefined index: session_expire_seconds in C:\Apache24\htdocs\jbneps\loginfail.php on line 17
+[16-Sep-2020 11:26:46 Asia/Dhaka] PHP Notice:  Undefined index: jb_solution_root in C:\Apache24\htdocs\jbneps\loginfail.php on line 44
+[16-Sep-2020 11:26:46 Asia/Dhaka] PHP Notice:  Undefined index: session_last_time in C:\Apache24\htdocs\jbneps\loginfail.php on line 105
+[16-Sep-2020 11:26:46 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[16-Sep-2020 16:17:03 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[16-Sep-2020 17:22:47 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[20-Sep-2020 16:45:56 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[21-Sep-2020 10:26:37 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[21-Sep-2020 11:38:00 Asia/Dhaka] PHP Warning:  require_once(loginfail.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 13
+[21-Sep-2020 11:38:00 Asia/Dhaka] PHP Fatal error:  require_once(): Failed opening required 'loginfail.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\jbneps\jbnepshome.php on line 13
+[21-Sep-2020 14:37:58 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[22-Sep-2020 09:55:31 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbneps\jbneps_dbconn\dbmycon.php on line 16
+[22-Sep-2020 11:50:10 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[22-Sep-2020 12:19:47 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[22-Sep-2020 13:07:08 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[09-Dec-2020 12:25:46 Asia/Dhaka] PHP Notice:  Undefined index: session_expire_seconds in C:\Apache24\htdocs\jbneps\loginfail.php on line 17
+[09-Dec-2020 12:25:46 Asia/Dhaka] PHP Notice:  Undefined index: jb_solution_root in C:\Apache24\htdocs\jbneps\loginfail.php on line 44
+[09-Dec-2020 12:25:46 Asia/Dhaka] PHP Notice:  Undefined index: session_last_time in C:\Apache24\htdocs\jbneps\loginfail.php on line 105
+[09-Dec-2020 12:25:46 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[09-Dec-2020 12:25:50 Asia/Dhaka] PHP Notice:  Undefined index: session_expire_seconds in C:\Apache24\htdocs\jbneps\loginfail.php on line 17
+[09-Dec-2020 12:25:50 Asia/Dhaka] PHP Notice:  Undefined index: jb_solution_root in C:\Apache24\htdocs\jbneps\loginfail.php on line 44
+[09-Dec-2020 12:25:50 Asia/Dhaka] PHP Notice:  Undefined index: session_last_time in C:\Apache24\htdocs\jbneps\loginfail.php on line 105
+[09-Dec-2020 12:25:50 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbneps\loginfail.php on line 108
+[19-Jan-2021 17:33:49 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbpe\jbpe_dbconn\dbmycon.php on line 25
+[20-Jan-2021 10:20:41 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbpe\jbpe_dbconn\dbmycon.php on line 25
+[20-Jan-2021 10:23:25 Asia/Dhaka] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\jbpe\jbpe_dbconn\dbmycon.php on line 25
+[20-Jan-2021 16:27:12 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[21-Jan-2021 15:55:32 Asia/Dhaka] PHP Notice:  Undefined index: session_expire_seconds in C:\Apache24\htdocs\jbpe\loginfail.php on line 17
+[21-Jan-2021 15:55:32 Asia/Dhaka] PHP Notice:  Undefined index: jb_solution_root in C:\Apache24\htdocs\jbpe\loginfail.php on line 44
+[21-Jan-2021 15:55:32 Asia/Dhaka] PHP Notice:  Undefined index: session_last_time in C:\Apache24\htdocs\jbpe\loginfail.php on line 105
+[21-Jan-2021 15:55:32 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[31-Jan-2021 11:31:06 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[31-Jan-2021 13:33:53 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[31-Jan-2021 13:35:51 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[31-Jan-2021 13:40:11 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[10-Feb-2021 18:45:06 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[24-Feb-2021 16:14:06 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[25-Feb-2021 12:25:50 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[25-Feb-2021 12:44:42 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[25-Feb-2021 14:08:14 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[28-Feb-2021 10:58:05 Asia/Dhaka] PHP Notice:  Undefined index: session_expire_seconds in C:\Apache24\htdocs\jbpe\loginfail.php on line 17
+[28-Feb-2021 10:58:05 Asia/Dhaka] PHP Notice:  Undefined index: jb_solution_root in C:\Apache24\htdocs\jbpe\loginfail.php on line 44
+[28-Feb-2021 10:58:05 Asia/Dhaka] PHP Notice:  Undefined index: session_last_time in C:\Apache24\htdocs\jbpe\loginfail.php on line 105
+[28-Feb-2021 10:58:05 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[01-Mar-2021 14:17:36 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[01-Mar-2021 14:19:42 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[03-Mar-2021 11:06:00 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[03-Nov-2021 13:00:26 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[03-Nov-2021 13:05:10 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[03-Nov-2021 13:14:30 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[03-Nov-2021 14:58:04 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[03-Nov-2021 14:58:12 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[03-Nov-2021 14:58:29 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[07-Nov-2021 11:06:06 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[07-Nov-2021 11:12:28 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[25-Nov-2021 16:23:58 Asia/Dhaka] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbpe\jbpe_dbconn\dbmycon.php on line 33
+[03-Feb-2022 15:25:06 Asia/Dhaka] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbpe\jbpe_dbconn\dbmycon.php on line 33
+[03-Feb-2022 15:27:26 Asia/Dhaka] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbpe\jbpe_dbconn\dbmycon.php on line 33
+[08-Mar-2022 16:09:40 Asia/Dhaka] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbpe\jbpe_dbconn\dbmycon.php on line 33
+[08-Mar-2022 16:11:43 Asia/Dhaka] PHP Warning:  htmlspecialchars() expects parameter 1 to be string, array given in C:\Apache24\htdocs\jbpe\jbpe_dbconn\dbmycon.php on line 33
+[23-Mar-2022 15:04:20 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[27-Mar-2022 15:11:01 Asia/Dhaka] PHP Notice:  Undefined variable: jbsolutionroot in C:\Apache24\htdocs\jbpe\loginfail.php on line 108
+[03-Apr-2022 13:55:56 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '$rate' (T_VARIABLE) in C:\Apache24\htdocs\jbpe\jbpe_classes\clscodeview.php on line 193

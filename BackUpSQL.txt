@@ -1,0 +1,601 @@
+USE [dbjbPassportEndorse]
+GO
+/****** Object:  StoredProcedure [dbo].[spSaveTmWithPassport]    Script Date: 01/31/2021 15:57:54 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[spSaveTmWithPassport]
+
+@tranType char(1),				@peTxnId varchar(50),			@branchCode varchar(4),
+@passportNumber nvarchar(50),	@tmFor nvarchar(50),			@currencyCode varchar(6),
+@countryCode numeric(18,0),		@purposeCode nvarchar(50),		@beneficiaryDetails nvarchar(50),
+@applicantName varchar(15),		@applicantAddress varchar(50),	@effectedRemitance varchar(15),
+@fxManualPara tinyint,			@bbAprovalNo nvarchar(11),		@approvalDat varchar(30),
+@categoryCode varchar(20),		@tmDate date,					@companyTypeId varchar(20),
+@mopCas varchar(20),			@mopTc varchar(20),				@mopCard varchar(20),
+@mopFdd varchar(20),			@mopMt varchar(20),				@mopOther varchar(20),
+@sfcBank varchar(20),			@sfcFcA varchar(20),			@sfcErq varchar(20),
+@sfcOther varchar(20),			@amountInBdt varchar(20),		@contactNo varchar(20),
+@bankReference varchar(20),		@inwardReferenc varchar(20),	@createdBy varchar(6),
+@approvedBy varchar(6),			@modifiedBy varchar(6),			@transStat char(1),
+@passportDate date,				@passportIssuePlace varchar(30),@passportRenewalDat date,
+@entryDate date,				@modifiedDat date
+--@bankOrgTxnCode varchar(50)=NULL
+
+
+
+/*@svcKey tinyint,			 @bankOrgTxnCode varchar(50), @custRegKey int,    @statusText varchar(50),*/ 
+/*@agentKey tinyint,           @agentID varchar(3),      @reqUserKey tinyint,            @comChannelKey tinyint,              @reqToNepsDatetime datetime, */
+/*@tID varchar(30),            @mID varchar(30),*/          /*@f1Data nvarchar(100),     @f2Data nvarchar(100),
+@f3Data nvarchar(100), 		   @f4Data nvarchar(100),    @f5Data nvarchar(100),          @f6Data nvarchar(100),                 @f7Data nvarchar(100),
+@f8Data nvarchar(100), 		   @f9Data nvarchar(100),    @f10Data nvarchar(100),         @requestSubmissionStatus varchar(50),  @clientID varchar(15),
+@clientSecret varchar(50), 	   @requestBankKey tinyint,  @bankKey tinyint,  		     @bankUserRef varchar(30),*/  			
+/*@nEPSEnrollStatus tinyint, @enrollDate datetime,*/     /*@iPAddress nvarchar(16),      @accTypeCode tinyint,*/   			    
+		            					
+    /*,		@createdDate datetime	,	   @updatedBy varchar(6),    @updateDate datetime*/
+
+
+
+
+AS
+DECLARE 
+
+@v_tranType char(1),				@v_peTxnId varchar(50),				@v_branchCode varchar(4),
+@v_passportNumber nvarchar(50),		@v_tmFor nvarchar(50),				@v_currencyCode varchar(6),
+@v_countryCode numeric(18,0),		@v_purposeCode nvarchar(50),		@v_beneficiaryDetails nvarchar(50),
+@v_applicantName varchar(15),		@v_applicantAddress varchar(50),	@v_effectedRemitance varchar(15),
+@v_fxManualPara tinyint,			@v_bbAprovalNo nvarchar(11),		@v_approvalDate varchar(30),
+@v_categoryCode varchar(20),		@v_tmDate date,						@v_companyTypeId varchar(20),
+@v_mopCash varchar(20),				@v_mopTc varchar(20),				@v_mopCard varchar(20),
+@v_mopFdd varchar(20),				@v_mopMt varchar(20),				@v_mopOther varchar(20),
+@v_sfcBank varchar(20),				@v_sfcFcAc varchar(20),				@v_sfcErq varchar(20),
+@v_sfcOther varchar(20),			@v_amountInBdt varchar(20),			@v_contactNo varchar(20),
+@v_bankReference varchar(20),		@v_inwardReference varchar(20),		@v_createdBy varchar(6),
+@v_approvedBy varchar(6),			@v_modifiedBy varchar(6),			@v_transState char(1),
+@v_passportDate date,				@v_passportIssuePlace varchar(50),	@v_passportRenewalDate date,
+@v_entryDate date,					@v_modifiedDate date,
+@v_message varchar(100)
+
+
+/*
+@v_bankOrgTxnCode varchar(50), @v_txnCode varchar(50),   @v_svcKey tinyint,              @v_custRegKey numeric(18,0),            @v_statusText varchar(50), 
+@v_agentKey numeric(12,0),     @v_agentID varchar(30),   @v_reqUserKey numeric(10,0),    @v_comChannelKey tinyint,               @v_reqToNepsDatetime datetime, 
+@v_tID varchar(30),            @v_mID varchar(30),       @v_logedinUserName varchar(30), @v_f1Data nvarchar(max),                @v_f2Data nvarchar(max),
+@v_f3Data nvarchar(max), 	   @v_f4Data nvarchar(max),  @v_f5Data nvarchar(max),        @v_f6Data nvarchar(max),                @v_f7Data nvarchar(max),
+@v_f8Data nvarchar(max), 	   @v_f9Data nvarchar(max),  @v_f10Data nvarchar(max),       @v_requestSubmissionStatus tinyint,	 @v_clientID varchar(15),
+@v_clientSecret varchar(50),   @v_requestBankKey tinyint,@v_bankKey tinyint,  		     @v_bankUserRef varchar(30),  			 @v_custFirstName nvarchar(50),
+@v_custLastName nvarchar(50),  @v_dOB datetime,      	 @v_nIDNo numeric(18,0), 		 @v_custFatherName nvarchar(50), 		 @v_custMotherName nvarchar(50),
+@v_nEPSEnrollStatus tinyint,   @v_enrollDate datetime,   @v_iPAddress nvarchar(16),      @v_accTypeCode tinyint, 			     @v_accNo varchar(15),
+@v_accName varchar(50),		   @v_prodTypeKey tinyint,   @v_accRoutingCode varchar(20),  @v_mobNo nvarchar(11),					 @v_branchCode varchar(4),
+@v_createdBy varchar(6),	   @v_createdDate datetime,	 @v_updatedBy varchar(6),        @v_updateDate datetime,				 @v_submissionStatus char(1),
+@v_message varchar(100)
+*/		
+			
+--VALUE SET
+
+--SET @v_tranType=@tranType; 
+SET @v_peTxnId=@peTxnId;
+SET @v_branchCode=@branchCode;
+SET @v_passportNumber=@passportNumber;
+SET @v_tmFor=@tmFor;
+SET @v_currencyCode=@currencyCode;
+SET @v_countryCode=@countryCode;
+SET @v_purposeCode=@purposeCode;
+SET @v_beneficiaryDetails=@beneficiaryDetails;
+SET @v_applicantName=@applicantName; 
+SET @v_applicantAddress=@applicantAddress;
+SET @v_effectedRemitance=@effectedRemitance;
+SET @v_fxManualPara=@fxManualPara;
+SET @v_bbAprovalNo=@bbAprovalNo;
+SET @v_approvalDate=@approvalDate;
+SET @v_categoryCode=@categoryCode;
+SET @v_tmDate=@tmDate;
+SET @v_companyTypeId=@companyTypeId;
+SET @v_mopCash=@mopCash;
+SET @v_mopTc=@mopTc;
+SET @v_mopCard=@mopCard;
+SET @v_mopFdd=@mopFdd;
+SET @v_mopMt=@mopMt;
+SET @v_mopOther=@mopOther;
+SET @v_sfcBank=@sfcBank; 
+SET @v_sfcFcAc=@sfcFcAc; 
+SET @v_sfcErq=@sfcErq;
+SET @v_sfcOther=@sfcOther;
+SET @v_amountInBdt=@amountInBdt;
+SET @v_contactNo=@v_contactNo;
+SET @v_bankReference=@bankReference; 
+SET @v_inwardReference=@inwardReference;
+SET @v_createdBy=@createdBy;
+SET @v_approvedBy=@approvedBy; 
+SET @v_modifiedBy=@modifiedBy; 
+SET @v_transState=@transState;
+SET @v_passportDate=@passportDate;
+SET @v_passportIssuePlace=@passportIssuePlace;
+SET @v_passportRenewalDate=@passportRenewalDate;
+SET @v_entryDate=@entryDate;
+SET @v_modifiedDate=@modifiedDate;
+SET @v_message=null;
+
+--set @v_custFirstName=@custFirstName;
+--set @v_custLastName=@custLastName;
+--set @v_dOB=@dOB; 
+--set @v_nIDNo=@nIDNo; 
+--set @v_custFatherName=@custFatherName; 
+--set @v_custMotherName=@custMotherName; 
+--set @v_nEPSEnrollStatus=0;
+--set @v_enrollDate=GETDATE();
+--set @v_iPAddress=null;
+--set @v_accTypeCode=0;
+--set @v_accNo=@accNo;
+--set @v_accName = @accName;
+--set @v_prodTypeKey = @prodTypeKey;
+--SET @v_accRoutingCode=@accRoutingCode; 
+--SET @v_mobNo=@mobNo;
+--SET @v_branchCode =@branchCode;	
+--SET @v_createdBy = @createdBy;
+--SET @v_createdDate = GETDATE();	   
+----SET @v_updatedBy = @updatedBy; 
+----SET @v_updateDate = @updateDate;	
+----SET @v_submissionStatus = @submissionStatus;
+
+
+
+--exec spBankOrgTxnCode '0012',@bankOrgTxnCode OUTPUT ;
+--SET @v_bankOrgTxnCode=@bankOrgTxnCode; 
+--SET @v_txnCode=@txnCode;
+--SET @v_svcKey=1;
+--SET @v_custRegKey=1;
+--SET @v_statusText=null;
+--SET @v_agentKey=1;
+--SET @v_agentID=1;
+--SET @v_reqUserKey=1;
+--SET @v_comChannelKey=2;
+--SET @v_reqToNepsDatetime=GETDATE(); 
+--SET @v_tID=null;
+--SET @v_mID=null;
+--SET @v_logedinUserName=@logedinUserName;
+--SET @v_f1Data=null;
+--SET @v_f2Data=null;
+--SET @v_f3Data=null;
+--SET @v_f4Data=null;
+--SET @v_f5Data=null;
+--SET @v_f6Data=null;
+--SET @v_f7Data=null;
+--SET @v_f8Data=null;
+--SET @v_f9Data=null;
+--set @v_f10Data=null;
+--set @v_requestSubmissionStatus=0;
+--set @v_clientID='JanataBank';
+--set @v_clientSecret='Test123Test'; 
+--set @v_requestBankKey=14; 
+--set @v_bankKey=14;
+--set @v_bankUserRef='Janata Bank';
+
+--set @v_custFirstName=@custFirstName;
+--set @v_custLastName=@custLastName;
+--set @v_dOB=@dOB; 
+--set @v_nIDNo=@nIDNo; 
+--set @v_custFatherName=@custFatherName; 
+--set @v_custMotherName=@custMotherName; 
+--set @v_nEPSEnrollStatus=0;
+--set @v_enrollDate=GETDATE();
+--set @v_iPAddress=null;
+--set @v_accTypeCode=0;
+--set @v_accNo=@accNo;
+--set @v_accName = @accName;
+--set @v_prodTypeKey = @prodTypeKey;
+--SET @v_accRoutingCode=@accRoutingCode; 
+--SET @v_mobNo=@mobNo;
+--SET @v_branchCode =@branchCode;	
+--SET @v_createdBy = @createdBy;
+--SET @v_createdDate = GETDATE();	   
+----SET @v_updatedBy = @updatedBy; 
+----SET @v_updateDate = @updateDate;	
+----SET @v_submissionStatus = @submissionStatus;	
+					
+BEGIN
+
+		IF @v_peTxnId =''
+		begin
+		    set @v_message = 'Transaction ID Failed.. !!! ';
+		    goto stop_level;
+		end
+		
+		IF @v_branchCode =''
+		begin
+		     set @v_message='Branch Code Not Found.. !!! ';
+			 goto stop_level;
+		end
+		
+		IF @v_passportNumber =''
+		begin
+			set @v_message='Passport Number Not Found... !!! ';
+			goto stop_level;
+		end
+				
+		IF @v_tmFor is null
+		begin
+			set @v_message='TM FOR Blank... !!! ';
+			goto stop_level;
+		end
+				
+		IF @v_currencyCode is null
+		begin
+			set @v_message='Currency Code is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_countryCode is null
+		begin
+			set @v_message='Country Code is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_purposeCode is null
+		begin
+			set @v_message='Purpose Code is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_beneficiaryDetails is null
+		begin
+			set @v_message='Beneficiary Details is Blank... !!! ';
+			goto stop_level;
+		end
+		
+		IF @v_applicantName is null
+		begin
+			set @v_message='Applicant Name Is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_applicantAddress is null
+		begin
+			set @v_message='Applicant Address Is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_effectedRemitance =''
+		begin
+		    set @v_message = 'Effected Remitance is Blank.. !!! ';
+		    goto stop_level;
+		end
+		
+		IF @v_fxManualPara =''
+		begin
+		     set @v_message='FX Manual Para Is Blank.. !!! ';
+			 goto stop_level;
+		end
+		
+		IF @v_bbAprovalNo =''
+		begin
+			set @v_message='BB Approval No is Blank... !!! ';
+			goto stop_level;
+		end
+				
+		IF @v_approvalDate is null
+		begin
+			set @v_message='Approval Date Blank... !!! ';
+			goto stop_level;
+		end
+				
+		IF @v_categoryCode is null
+		begin
+			set @v_message='Category is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_tmDate is null
+		begin
+			set @v_message='TM Date is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_companyTypeId is null
+		begin
+			set @v_message='Company Type is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_mopCash is null
+		begin
+			set @v_message='MOP Cash is Blank... !!! ';
+			goto stop_level;
+		end
+		
+		IF @v_mopTc is null
+		begin
+			set @v_message='MOP TC Is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_mopCard is null
+		begin
+			set @v_message='MOP Card Is Blank... !!! ';
+			goto stop_level;
+		end	
+
+		IF @v_mopFdd is null
+		begin
+			set @v_message='MOP FDD Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_mopMt is null
+		begin
+			set @v_message='MOP MTis Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_mopOther is null
+		begin
+			set @v_message='MOP Other is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_sfcBank is null
+		begin
+			set @v_message='SFC BANK is Blank... !!! ';
+			goto stop_level;
+		end
+		
+		IF @v_sfcFcAc is null
+		begin
+			set @v_message='Sfc FC Ac Is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_sfcErq is null
+		begin
+			set @v_message='SFC ERQ Is Blank... !!! ';
+			goto stop_level;
+		end		
+
+		IF @v_sfcOther is null
+		begin
+			set @v_message='SFC Other Is Blank... !!! ';
+			goto stop_level;
+		end	
+
+		IF @v_amountInBdt is null
+		begin
+			set @v_message='Amount In BDT. is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_contactNo is null
+		begin
+			set @v_message='Contact No. is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_bankReference is null
+		begin
+			set @v_message='Bank Reference is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_inwardReference is null
+		begin
+			set @v_message='Inward Reference is Blank... !!! ';
+			goto stop_level;
+		end
+		
+		IF @v_createdBy is null
+		begin
+			set @v_message='Created By Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_approvedBy is null
+		begin
+			set @v_message='Approved By Is Blank... !!! ';
+			goto stop_level;
+		end	
+
+		IF @v_modifiedBy is null
+		begin
+			set @v_message='Modified By Is Blank... !!! ';
+			goto stop_level;
+		end
+
+		IF @v_transState is null
+		begin
+			set @v_message='Transaction State Is Blank... !!! ';
+			goto stop_level;
+		end			
+
+		IF @v_passportDate is null
+		begin
+			set @v_message='Passport Date Is Blank... !!! ';
+			goto stop_level;
+		end		
+
+		IF @v_passportIssuePlace is null
+		begin
+			set @v_message='Passport Issue Place Is Blank... !!! ';
+			goto stop_level;
+		end
+	
+	BEGIN TRY
+
+		BEGIN TRAN
+				BEGIN
+				/*
+					 set @v_Adjusted= (select Adjusted from tblRequision where ControlingNumber =@ControlingNumber );								 
+					 IF (@v_Adjusted= NULL OR @v_Adjusted= '')
+						begin
+							set @v_message='Invalid Adjustment...';
+							goto stop_level;
+						end;
+					 ELSE IF (@v_Adjusted='Adjusted')
+						begin
+							set @v_message='This Bill Is Already Adjusted...Not Possible to Save.';
+							goto stop_level;
+						end;
+				*/						
+					
+						IF @tranType ='I' --I=Insert
+							BEGIN
+								IF exists (select [PASSPORT_NO] from [dbjbPassportEndorse].[dbo].[tblpassport] where [PASSPORT_NO]=@passportNumber) 
+								  BEGIN
+											 exec spPeTxnId @branchCode,@peTxnId OUTPUT ;
+									--Insert Query Without Saving Passport Info	
+									
+									INSERT INTO [dbjbPassportEndorse].[dbo].[tblTMData]
+										([PE_TXN_ID]		,[BRANCH_CODE]			,[PASSPORT_NO]
+										,[TM_FOR]			,[CURRENCY_CODE]		,[COUNTRY_CODE]
+										,[PURPOSE_CODE]		,[BENEFICIARY_DETAILS]	,[APPLICANT_NAME]
+										,[APPLICANT_ADDRESS],[EFFECTED_REMITTANCE]	,[FX_MANUAL_PARA]
+										,[BB_APPROVAL_NO]	,[APPROVAL_DATE]		,[CATEGORY_CODE]
+										,[TM_DATE]			,[COMPANY_TYPE_ID]		,[MOP_CASH]
+										,[MOP_TC]			,[MOP_CARD]				,[MOP_FDD]
+										,[MOP_MT]			,[MOP_OTHER]			,[SFC_BANK]
+										,[SFC_FC_AC]		,[SFC_ERQ]				,[SFC_OTHER]
+										,[AMOUNT_IN_BDT]	,[CONTACT_NO]			,[BANK_REFERENCE]
+										,[INWARD_REFERENCE]	,[CREATED_BY]			,[APPROVED_BY]
+										,[MODIFIED_BY]		,[MODIFIED_DATE]		,[TRAN_STATE])
+									VALUES
+										( @v_peTxnId			,@v_branchCode			,@v_passportNumber
+										 ,@v_tmFor				,@v_currencyCode		,@v_countryCode
+										 ,@v_purposeCode		,@v_beneficiaryDetails	,@v_applicantName	
+										 ,@v_applicantAddress	,@v_effectedRemitance	,@v_fxManualPara		
+										 ,@v_bbAprovalNo		,@v_approvalDate		,@v_categoryCode			
+										 ,@v_tmDate				,@v_companyTypeId		,@v_mopCash			
+										 ,@v_mopTc				,@v_mopCard				,@v_mopFdd
+										 ,@v_mopMt				,@v_mopOther			,@v_sfcBank
+										 ,@v_sfcFcAc			,@v_sfcErq				,@v_sfcOther
+										 ,@v_amountInBdt		,@v_contactNo			,@v_bankReference
+										 ,@v_inwardReference	,@v_createdBy			,@v_approvedBy
+										 ,@v_modifiedBy			,@v_transState
+										)
+									
+									IF (@@ROWCOUNT=1)
+										BEGIN
+											set @v_message = 'TM Data Saved Successfully';
+											COMMIT;
+											GOTO stop_level;
+										END
+									ELSE
+										BEGIN
+											ROLLBACK;
+											set @v_message = 'FAILED';
+											GOTO stop_level;
+										END	 
+								 END;
+								 								
+								ELSE
+									BEGIN									
+										exec spPeTxnId @branchCode,@peTxnId OUTPUT ;
+										
+										INSERT INTO [dbjbPassportEndorse].[dbo].[tblpassport]
+											([PASSPORT_NO]		,[CITIZEN_NAME]			,[ADDRESS]
+											,[PASSPORT_DATE]	,[PASSPORT_ISSUE_PLACE]	,[PASSPORT_RENEWAL_DATE]
+											,[CREATED_BY]		,[APPROVED_BY]			,[ENTRY_DATE]
+											,[MODIFIED_BY]		,[MODIFIED_DATE]
+											)
+										VALUES
+											( @v_passportNumber,@v_applicantName,@v_applicantAddress
+											 ,@v_passportDate,@v_passportIssuePlace,@v_passportRenewalDate
+											 ,@v_createdBy,@v_approvedBy,@v_entryDate
+											 ,@v_modifiedBy, @v_modifiedDate
+											)
+										
+										IF (@@ROWCOUNT=1)
+											BEGIN
+												set @v_message = 'Passport Saved';
+												
+												INSERT INTO [dbjbPassportEndorse].[dbo].[tblTMData]
+													([PE_TXN_ID]		,[BRANCH_CODE]			,[PASSPORT_NO]
+													,[TM_FOR]			,[CURRENCY_CODE]		,[COUNTRY_CODE]
+													,[PURPOSE_CODE]		,[BENEFICIARY_DETAILS]	,[APPLICANT_NAME]
+													,[APPLICANT_ADDRESS],[EFFECTED_REMITTANCE]	,[FX_MANUAL_PARA]
+													,[BB_APPROVAL_NO]	,[APPROVAL_DATE]		,[CATEGORY_CODE]
+													,[TM_DATE]			,[COMPANY_TYPE_ID]		,[MOP_CASH]
+													,[MOP_TC]			,[MOP_CARD]				,[MOP_FDD]
+													,[MOP_MT]			,[MOP_OTHER]			,[SFC_BANK]
+													,[SFC_FC_AC]		,[SFC_ERQ]				,[SFC_OTHER]
+													,[AMOUNT_IN_BDT]	,[CONTACT_NO]			,[BANK_REFERENCE]
+													,[INWARD_REFERENCE]	,[CREATED_BY]			,[APPROVED_BY]
+													,[MODIFIED_BY]		,[MODIFIED_DATE]		,[TRAN_STATE])
+												VALUES
+													( @v_peTxnId			,@v_branchCode			,@v_passportNumber
+													 ,@v_tmFor				,@v_currencyCode		,@v_countryCode
+													 ,@v_purposeCode		,@v_beneficiaryDetails	,@v_applicantName	
+													 ,@v_applicantAddress	,@v_effectedRemitance	,@v_fxManualPara		
+													 ,@v_bbAprovalNo		,@v_approvalDate		,@v_categoryCode			
+													 ,@v_tmDate				,@v_companyTypeId		,@v_mopCash			
+													 ,@v_mopTc				,@v_mopCard				,@v_mopFdd
+													 ,@v_mopMt				,@v_mopOther			,@v_sfcBank
+													 ,@v_sfcFcAc			,@v_sfcErq				,@v_sfcOther
+													 ,@v_amountInBdt		,@v_contactNo			,@v_bankReference
+													 ,@v_inwardReference	,@v_createdBy			,@v_approvedBy
+													 ,@v_modifiedBy			,@v_transState
+													)
+												IF (@@ROWCOUNT=1)
+													BEGIN
+														set @v_message = @v_message+'TM Data Saved Successfully';
+														COMMIT;
+														GOTO stop_level;
+													END
+												ELSE
+													BEGIN
+														ROLLBACK;
+														set @v_message = 'Paasport Or TM Failed';
+														GOTO stop_level;
+													END
+												
+											END
+										ELSE
+											BEGIN
+												ROLLBACK;
+												set @v_message = 'FAILED';
+												GOTO stop_level;
+											END	 
+								END	
+							END	
+						ELSE IF @TranType ='U' --U=Upadate
+							BEGIN
+							Select 'Another Code';
+							END
+						ELSE
+							BEGIN
+								set @v_message='Insert / Updated Failed...';
+								goto stop_level;
+							END									 
+					            
+				END;
+													
+		COMMIT;	
+	END TRY
+
+	BEGIN CATCH
+	ROLLBACK;		
+		set @v_message='Record Insert Failed !!!!  ' + ERROR_MESSAGE() ;
+	END CATCH
+
+stop_level:
+	
+	select @v_message;
+	
+END
+
+   
+
+
+
+--exec spEnrollCustomerJB 'I', 'P',  'Admin', 'Ahtesamul', 'Habib', '1988-01-18', 5053325832, 'Jahurul Hoque', 'Jahanara Begum', ,'0100114383290','ahtesam',1,'123456','01721307966','0012','ahtesam'
+--exec spEnrollCustomerJB 'I','P',Null,'Admin','Ahtesamul', 'Habib', '1988-01-18', 5053325832,'Jahurul Hoque', 'Jahanara Begum', '0100114383290', 'ahtesam',1,'231236','01721307966','0122','ahtesam';
+
+--exec spEnrollCustomerJB @TranType
+
+--exec spEnroll_Update_Customer @tranType='I',@custFirstName='a',@custLastName='a',@dOB='1988-01-20',@nIDNo=1234958490,
+--@custFatherName='a',@custMotherName='a',@accNo='0100114383292',@accName='a',
+--@accRoutingCode='111111111',@prodTypeKey=1,@mobNo='01721307967',@branchCode='0122',@logedinUserName='a',
+--@createdBy= '123654', @bankOrgTxnCode = '2020012901222'
